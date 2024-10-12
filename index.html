@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>H</span>ema</h2>
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Hi I'm <span>Hemadharshini</span></h2>
+            <h4>Frontend Developer</h4>
+            <p>Welcome to my FrontEnd developer portfolio! I'm Hemadharshini, a skilled and
+                creative FrontEnd developer with a passion for creating beautiful,
+                responsive, and user-friendly websites.</p>
+            <div class="btn-group">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+        </div>
+        <div class="image">
+            <img src="hema.jpg" alt="Profile of Hemadharshini" />
+        </div>
+    </section>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=100024724905748&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.linkedin.com/in/hema-dharshini-38a150303/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/hemadharshini2003"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/itz___hema__?igsh=MW94ZWl5cDM4MnpraA=="><i class='bx bxl-instagram'></i></a>
+    </div>
+    <section class="about" id="about">
+        <h2 class="section-title">About</h2>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="hema.jpg" alt="hema">
+            </div>
+        <h2 class="about-subtitle">I'm Hemadharshini</h2>
+        <p class="about-text">I'm a fresher. Emerging FrontEnd developer with the foundational undersatnding of UI/UX 
+            design principles .Demonstrated experience in responsive web design and a gowing proficiency in Javascript,
+            CSS and Angular Js framework. Committed to enhancing user experience and eager to apply problem-solving skills 
+            to tackle FrontEnd challenges and contribute to Team success.
+        </p>
+    </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="skill">
+            <h2>Skills</h2>
+            <li><h3>HTML</h3>
+            <span class="bar"><span class="html"></span></span>
+            </li>
+            <li><h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+                </li>
+                <li><h3>Javascript</h3>
+                    <span class="bar"><span class="javascript"></span></span>
+                </li>
+                <li><h3>SQL</h3>
+                        <span class="bar"><span class="sql"></span></span>
+                        </li>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <h2>My Project</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="calc.png" alt="project-one">
+                <div class="project-info">
+                    <h3>Project One</h3>
+                    <p>The calculator project shows a dark background and brightly colored buttons. 
+                        The calculator has a display screen at the top and a grid of buttons below. 
+                        The buttons are labeled with numbers (0-9), arithmetic operators (+, -, *, /), and other functions (AC, DEL, %, .). 
+                        The "AC" button clears the entire calculation, while the "DEL" button deletes the last digit entered. 
+                        The "%" button calculates the percentage of a number, and the "." button adds a decimal point. 
+                        The "=" button calculates the final result of the equation entered.</p>
+                        <a href="#">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="goat-game.png" alt="project-two">
+                <div class="project-info">
+                    <h3>Project Two</h3>
+                    <p>This project is a Goat game developed by using HTML , CSS and JavaScript.
+                        The goat is facing a large banana leaf and a motorcycle.
+                    If the goat hits the banana leaf the score will get increase but if the goat hits the bike the game will gets over and the score will shone in the pop-up message.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="resume" id="resume">
+        <div class="resume-content">
+            <h2>My Resume</h2>
+            <p>Hello! I'm a passionate developer with skills in web development ,design and more.Take a look at my resume to learn about my skills.</p>
+            <div class="resume-details">
+                <ul>
+                    <li><strong>Name:/</strong>Hemadharshini</li>
+                    <li><strong>Skills:/</strong>HTML , CSS , JavaScript , SQL</li>
+                </ul>
+            </div>
+            <a href="https://www.cvwizard.com/d/y5kwucVsU3pH8RAgcHGjb/view" class="download-btn">Download Resume</a>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to work together, feel free to reach out!</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="send-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
