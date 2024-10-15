@@ -341,7 +341,7 @@ h3 {
 }
 
 .project-card:hover{
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 
 .project-card img{
@@ -350,7 +350,7 @@ h3 {
     border-radius: 5px;
 }
 
-.project-info h3{
+.project-info h3{  
     font-size: 18px;
     margin: 10px 0;
     color: #7d2ae8;
@@ -370,7 +370,8 @@ h3 {
 }
 
 .project-info a:hover{
-    background-color: #0056b3;
+    background-color: #7d2ae8;
+    color: white;
 }
 
 .resume{
@@ -547,5 +548,5 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #ff5722; 
+    color: #ff5722; /* Change to your preferred hover color */
 }
